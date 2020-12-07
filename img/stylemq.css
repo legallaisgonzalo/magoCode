@@ -1,0 +1,14 @@
+@media (max-width: 1000px){
+    #presentacion{
+        height: 400px;
+        width: 700px;
+        transform: translate(450px);
+        font-family: 'Montserrat', sans-serif;
+        text-shadow: rgb(255, 255, 255) 1px 0 10px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}

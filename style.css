@@ -1,0 +1,271 @@
+/* #4a235a,#f5eef8,#ebdef0,#c39bd3,#9b59b6,#633974*/
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background: url("img/pexels-tranmautritam-251225.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.banner{
+    background: url("img/pexels-tranmautritam-251225.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    color: rgba(102, 51, 153, 0);
+    padding: 20px;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.anav-link{
+    color: rebeccapurple;
+    padding: 10px;
+    font-size: 20px;
+    list-style: none;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.anav-link:hover{
+    transition: 1s;
+    text-shadow: rebeccapurple 1px 0 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.violeta{
+    height: 100vh;
+    background-color: rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.nosotros{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+}
+
+#presentacion{
+    width: auto;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.phola{
+    color: white;
+    text-shadow: 2px 2px 2px #000000;
+}
+.hola{
+    color: white;
+    font-size: 70px;
+    text-shadow: 2px 2px 2px #000000;
+}
+h1.team{
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    color: rebeccapurple;
+}
+
+p{
+    color: rgb(0, 0, 0)9, 19, 19);
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+
+}
+.button{
+    width: auto;
+    background-color:rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: rgb(237, 219, 255);
+}
+.presupuesto{
+    color: white;
+    width: auto;
+    background-color:rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.presupuesto:hover{
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px #000000;
+}
+.servicios{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 5px;
+}
+.trab{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    width: 200px;
+}
+.trab:hover{
+    transition: 1s;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #000000cc;
+    box-shadow: rgb(179, 179, 179) 0px 0px 1px 0px;
+    z-index: 1;
+}
+.serv{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    width: 200px;
+}
+.serv:hover{
+    transition: 1s;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rebeccapurple;
+    box-shadow: rebeccapurple 0px 0px 1px 0px;
+    z-index: 1;
+}
+.contact,.clientes{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.contacto{
+    padding: 20px;
+}
+
+*{
+    font-family: 'Montserrat';
+    font-weight: 100;
+}
+li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+footer{
+    color: white;
+    height: 35px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.wpp{
+    z-index: 999;
+    width: 70px;
+    height: 70px;
+    display:block;
+    width:70px;
+    height:70px;
+    position: fixed;
+    right:20px;
+    bottom:20px;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+}
+.navbar-collapse{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    font-size: 30px;
+
+}
+@media(max-width: 1000px){
+    .violeta{
+        display: none;
+    }
+    .hola{
+        color: rgb(255, 255, 255);
+        font-size: 50px;
+        text-shadow: rgb(255, 255, 255) 1px 0 10px;
+    }
+    .phola{
+        color: rgb(255, 255, 255);
+        font-weight: 300;
+        font-size: 20px;
+    }
+    .header{
+        background-color: rebeccapurple;
+    }
+    .button{
+        background-color:rebeccapurple;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        color: rgb(255, 255, 255);
+    }
+}
