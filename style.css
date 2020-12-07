@@ -102,7 +102,13 @@ p{
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-
+}
+li{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
 }
 .button{
     width: auto;
@@ -156,7 +162,9 @@ p{
     justify-content: center;
     align-items: center;
     padding: 10px;
-    background-color: #000000cc;
+    background: url("img/pexels-markus-spiske-2956193.jpg");
+    background-size: cover;
+    background-attachment: fixed;
     box-shadow: rgb(179, 179, 179) 0px 0px 1px 0px;
     z-index: 1;
 }
@@ -170,6 +178,7 @@ p{
     background-color: rgb(255, 255, 255);
     height: 200px;
     width: 200px;
+    
 }
 .serv:hover{
     transition: 1s;
@@ -242,6 +251,62 @@ footer{
     font-size: 30px;
 
 }
+.lds-ellipsis {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-ellipsis div {
+    position: absolute;
+    top: 33px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #fcf;
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+  }
+  .lds-ellipsis div:nth-child(1) {
+    left: 8px;
+    animation: lds-ellipsis1 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(2) {
+    left: 8px;
+    animation: lds-ellipsis2 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(3) {
+    left: 32px;
+    animation: lds-ellipsis2 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(4) {
+    left: 56px;
+    animation: lds-ellipsis3 0.6s infinite;
+  }
+  @keyframes lds-ellipsis1 {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes lds-ellipsis3 {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+    }
+  }
+  @keyframes lds-ellipsis2 {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(24px, 0);
+    }
+  }
+  
 @media(max-width: 1000px){
     .violeta{
         display: none;
