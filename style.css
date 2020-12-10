@@ -48,11 +48,19 @@ body{
 }
 
 .anav-link:hover{
+    color: violet;
     transition: 1s;
     text-shadow: rebeccapurple 1px 0 10px;
     text-decoration: none;
+    background-color: rebeccapurple;
 }
-
+a.clientes{
+    color: rebeccapurple;
+}
+a.clientes:hover{
+    
+    color: rgb(255, 255, 255);
+}
 .violeta{
     height: 100vh;
     background-color: rebeccapurple;
@@ -95,9 +103,8 @@ h1.team{
     font-family: 'Montserrat', sans-serif;
     color: rebeccapurple;
 }
-
 p{
-    color: rgb(0, 0, 0)9, 19, 19);
+    color: rgb(0, 0, 0);
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
